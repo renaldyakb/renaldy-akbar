@@ -10,7 +10,7 @@
     "deploy": "next build && gh-pages -d out -b gh-pages",
     "predeploy": "npm run build"
   },
-  "homepage": "https://github.com/renaldyakb/renaldy-akbar.git",
+  "homepage": "https://renaldyakb.github.io/renaldy-akbar",
   
   "dependencies": {
     "@builder.io/dev-tools": "^0.1.14",
