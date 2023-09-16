@@ -13,7 +13,12 @@ const nextConfig = withBuilderDevTools({
         pathname: '/**',
       },
     ],
-  }
+  },
+
+  // Konfigurasi untuk GitHub Pages
+  basePath: '', // Tambahkan basePath
+  assetPrefix: '', // Tambahkan assetPrefix
 });
 
 module.exports = nextConfig;
+
