@@ -13,15 +13,33 @@
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
+    --animate-delay: 10s;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.fixed-top {
+  position: fixed;
+  top: 10%; /* Menengahkan elemen secara vertikal */
+  left: 50%; /* Menengahkan elemen secara horizontal */
+  transform: translate(-50%, -50%); 
 }
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* styles/globals.css atau file CSS Anda */
+
+.jalankan {
+  animation: jalankan 15s linear infinite;
+}
+
+@keyframes jalankan {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-1656px);
+  }
+}
+
