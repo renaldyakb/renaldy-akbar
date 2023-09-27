@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Image from "next/image";
 
 const ImageGallery = ({ images }: any) => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -30,11 +31,14 @@ const ImageGallery = ({ images }: any) => {
         style={{ transform: `translateX(${scrollPosition}px)` }}
       >
         {images.map((image: any, index: number) => (
-          <img
+          <Image
             src={image}
             alt={`Image ${index}`}
+            width={32}
+            height={12}
+            objectFit="contain"
+            className='object-contain'
             key={index}
-            className='w-32 h-12 object-contain'
           />
         ))}
       </div>
