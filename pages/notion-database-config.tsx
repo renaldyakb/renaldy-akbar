@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Loading from "@/components/loading";
 import Head from "next/head";
+import Image from "next/image";
 import "animate.css";
 
 import "animate.css";
@@ -116,7 +117,7 @@ export default function Home() {
                           (image: { file: { url: any } }, index: number) => (
                             <li key={index} className=''>
                               <div className='relative inline-block overflow-hidden mx-auto h-64'>
-                                <img
+                                <Image
                                   src={image.file.url || "/default-image.jpg"}
                                   alt={`Gambar ${index + 1}`}
                                   width={240}
