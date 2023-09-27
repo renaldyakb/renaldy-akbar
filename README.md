@@ -37,4 +37,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-[<img src="https://github.com/fiqgant.png" width="60px;"/><br /><sub><a href="https://github.com/fiqgant">fiqgant</a></sub>](https://github.com/fiqgant/renaldy-akbar
+[<img src="https://github.com/fiqgant.png" width="60px;"/><br /><sub><a href="https://github.com/fiqgant">fiqgant</a></sub>](https://github.com/fiqgant/renaldy-akbar)
